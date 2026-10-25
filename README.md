@@ -1,28 +1,62 @@
-# Robot 2d navigation using pygame simuation
+# Robot 2D Navigation Simulation
 
-## Methodology:
-- Find the shortest path to reach the goal using A* algorithm
-- Also identify if the neighbour are the obstacles
-- Calculating before move to the goal.
-- It'll check 8 direction.
+A real-time 2D mobile robot navigation and pathfinding simulation built with Python and Pygame, utilizing the **A* (A-Star) search algorithm** with 8-directional movement.
 
-## Guides:
-- Mouse right click to move the starting point
-- Mouse wheel click or 'G' from keyboard to set the goal.
-- Mouse left click to set draw the obstacles.
-- 'SPACEBAR' to Run the simulation.
-- key 'C' from keyboard to clear the obstacles and path.
+---
+
+## Features
+
+- **A* Pathfinding Algorithm:** Computes the shortest, collision-free path from start to goal.
+- **8-Directional Movement:** Evaluates orthogonal and diagonal neighbors with corner-cutting prevention.
+- **Interactive Grid Controls:** Easily place obstacles, reposition the start node, and set target destinations.
+- **Real-time Obstacle Collision Checks:** Validates neighboring cells before calculating movement paths.
+
+---
 
 ## output
 <img src="output.png">
 
-<i>Note: Starting point is green, Blue is the robot, yellow is path, Red is goal.</i>
+---
 
-## Improvement
-- If possible to calculate real time, from the current possition if the neighbour is the obstacle or not.
-- Maybe next time diagonal checking should be remove.
+## Controls
 
+| Action | Control |
+| :--- | :--- |
+| **Draw Obstacles** | Left-Click & Drag |
+| **Set Start Position** | Right-Click |
+| **Set Goal Position** | Middle Mouse Click or press **`G`** |
+| **Run Simulation** | **`SPACEBAR`** |
+| **Clear Grid** | **`C`** |
 
-<a href="https://github.com/SultanAhmmed/robot-2d-navigation-using-pygame-simuation">
-    <img src="https://komarev.com/ghpvc/?username=SultanAhmmed/robot-2d-navigation-using-pygame-simuation&label=Profile%20Views&color=00d9ff&style=flat-square" alt="views"/>
-  </a>
+---
+
+## Color Legend
+
+- 🟩 **Green:** Starting Point
+- 🟥 **Red:** Goal Destination
+- 🟨 **Yellow:** Calculated Path
+- ⬛ **Black:** Obstacle / Wall
+- ⬜ **White:** Free Space
+
+---
+
+## Installation & Running with `uv`
+
+This project is configured to run smoothly with `uv`.
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SultanAhmmed/robot-2d-navigation-using-pygame-simuation.git
+   cd robot-2d-navigation-using-pygame-simuation
+   ```
+
+2. **Run the simulation using `uv`:**
+   ```bash
+   uv run main.py
+   ```
+
+---
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
