@@ -23,6 +23,6 @@
 - Maybe next time diagonal checking should be remove.
 
 
-<a href="https://github.com/SultanAhmmed">
-    <img src="https://komarev.com/ghpvc/?username=SultanAhmmed&label=Profile%20Views&color=00d9ff&style=flat-square" alt="profile views"/>
+<a href="https://github.com/SultanAhmmed/robot-2d-navigation-using-pygame-simuation">
+    <img src="https://komarev.com/ghpvc/?username=SultanAhmmed/robot-2d-navigation-using-pygame-simuation&label=Profile%20Views&color=00d9ff&style=flat-square" alt="views"/>
   </a>
