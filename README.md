@@ -21,3 +21,8 @@
 ## Improvement
 - If possible to calculate real time, from the current possition if the neighbour is the obstacle or not.
 - Maybe next time diagonal checking should be remove.
+
+
+<a href="https://github.com/SultanAhmmed">
+    <img src="https://komarev.com/ghpvc/?username=SultanAhmmed&label=Profile%20Views&color=00d9ff&style=flat-square" alt="profile views"/>
+  </a>
